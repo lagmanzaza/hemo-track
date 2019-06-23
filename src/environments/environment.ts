@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCmHEIAIyIBfPZLI4EbzLP5VuFBRKy-H5s',
+    authDomain: 'hemo-tracking.firebaseapp.com',
+    databaseURL: 'https://hemo-tracking.firebaseio.com',
+    projectId: 'hemo-tracking',
+    storageBucket: '',
+    messagingSenderId: '382419932487',
+    appId: '1:382419932487:web:5bcbc0593870149d'
+  }
 };
 
 /*
